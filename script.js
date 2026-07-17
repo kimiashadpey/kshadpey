@@ -37,3 +37,9 @@ if (year) {
 }
 
 updateHeader();
+
+
+const placeholderForm = document.querySelector("[data-form-placeholder]");
+placeholderForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+});

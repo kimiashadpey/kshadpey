@@ -16,8 +16,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css" />
-  <script src="./js/script.js" defer></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -133,13 +133,13 @@
           <h2>Tell us what you own and what is making the decision difficult.</h2>
           <p>We will determine whether a conversation makes sense and what information would be useful next.</p>
         </div>
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="contact-form" action="#" method="post" data-form-placeholder>
           <label>Full name<input type="text" name="name" autocomplete="name" required /></label>
           <label>Email<input type="email" name="email" autocomplete="email" required /></label>
           <label>Property location<input type="text" name="location" placeholder="City or neighbourhood" required /></label>
           <label>What is happening with the property?<textarea name="message" rows="5" placeholder="Vacant, inherited, currently rented, not ready to sell…" required></textarea></label>
           <button class="button button-dark button-full" type="submit">Request a conversation</button>
-          <p class="form-note">Connect your Formspree ID before publishing this form.</p>
+          
         </form>
       </div>
     </section>
